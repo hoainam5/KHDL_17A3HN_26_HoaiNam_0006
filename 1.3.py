@@ -10,9 +10,7 @@ for i in cac_mat_hang:
 a=input('nhập tên sản phẩm mà bạn muốn mua: ')
 b=int(input('nhập sô lượng muốn mua: '))
 so_tien_phai=str(cac_mat_hang[a]*b)
-l=''
 k=0
-
 for i in range(len(so_tien_phai)-1,-1,-1):
     k+=1
     if k==3:
