@@ -1,0 +1,13 @@
+s=input('nhâpj chuỗi s:')
+s_sub = input("nhập chuỗi con s_sub:")
+s_find=input('nhập chuỗi tìm s_find:')
+s_replace=input('nhập chuỗi thay thế:')
+print('chuỗi sau khi loại bỏ khoảng trăng ở đầu và cuối chuỗi:',s.strip())
+s=s.strip()
+print('chuỗi sau khi loại bỏ khoảng trăng ở đầu và cuối chuỗi:',s)
+print('viết hoa đầu kí tự đàua chuỗi',s.capitalize())
+print('Số lần chuỗi con s_sub xuất hiện trong s:',s.count(s_sub))
+print('vị trí của s_find:',s.find(s_find))
+s=s.replace(s_find,s_replace)
+print('Chuỗi s sau khi tìm kiếm va thay thế:',s)
+
