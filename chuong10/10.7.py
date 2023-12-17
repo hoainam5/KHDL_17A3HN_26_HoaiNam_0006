@@ -10,4 +10,3 @@ print('Số lần chuỗi con s_sub xuất hiện trong s:',s.count(s_sub))
 print('vị trí của s_find:',s.find(s_find))
 s=s.replace(s_find,s_replace)
 print('Chuỗi s sau khi tìm kiếm va thay thế:',s)
-

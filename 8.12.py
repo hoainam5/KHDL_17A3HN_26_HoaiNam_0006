@@ -8,4 +8,3 @@ for i in range(2, int(number**0.5) + 1):
         else:
             print("là số nguyên tố")
             break 
-    

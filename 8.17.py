@@ -5,4 +5,4 @@ def ucln(a,b):
 def bcnn(a,b):
     return int((a*b)/ucln(a,b))
 a,b=map(int,input("nhập 2 số nguyên : ").split())
-print("Bội chung nhỏ nhất là :n",bcnn(a,b))
+print("Bội chung nhỏ nhất là :",bcnn(a,b))
